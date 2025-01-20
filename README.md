@@ -12,3 +12,6 @@ The topics for this week are the Terminal, HTML and CSS.
 
 ## Week 2 (21-01-2025 / 28-01-2025)
 The topics for this week are Git and GitHub and recaps will be given on any topic necesary for the past week.
+
+
+Primer-test repository link -> https://github.com/mariblan/Primer-test
