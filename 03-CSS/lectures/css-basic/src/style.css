@@ -1,0 +1,40 @@
+h1 {
+  color: purple;
+}
+
+section {
+  color: aquamarine;
+  background-color: beige;
+}
+
+#section2 {
+  color: #000;
+  background-color: rgb(167, 167, 105);
+}
+.section {
+  color: #000;
+  background-color: antiquewhite;
+}
+
+.division {
+  color: #000;
+  background-color: aquamarine;
+}
+
+section {
+  margin: 40px;
+  padding: 40px;
+  border: 1px dotted #ccc;
+  color: red;
+  background-color: black;
+}
+h2 {
+  color: blue;
+}
+section h2 {
+  color: blue;
+}
+
+section .heading {
+  color: green;
+}
