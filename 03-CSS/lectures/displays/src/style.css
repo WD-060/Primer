@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  margin: 0rem auto;
+  padding: 1rem;
+  background-color: #333;
+  width: 100%;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+nav ul li {
+  /* padding: 1rem; */
+  /* background-color: aquamarine; */
+}
+
+/* #item1 {
+  flex: 1 1 100px;
+}
+#item2 {
+  flex: 1 2 80px;
+}
+#item3 {
+  flex: 2 1 100px;
+}
+#item4 {
+  flex: 1 1 100px;
+}
+#item5 {
+  flex: 2 1 100px;
+} */
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav div {
+  width: 20%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+nav div img {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+}
+
+section {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+section h2 {
+  color: #333;
+  width: 10rem;
+}
+
+section p {
+  color: #666;
+}
+section p, section ul {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 3rem;
+}
+
+form {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30rem;
+  gap: 1rem;
+}
+form input, form label, form textarea {
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 100%;
+}
+footer {
+  width: 100%;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+/* @media (max-width: 768px) {
+  nav ul {
+    display: block;
+  }
+
+  nav ul li {
+    display: block;
+    padding: 1rem;
+  }
+
+  nav div {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul li {
+    padding: 0.5rem;
+  }
+} */
